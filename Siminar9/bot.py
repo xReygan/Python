@@ -6,7 +6,7 @@ from datetime import datetime as dt
 import telebot
 from telebot import types
  
-bot = telebot.TeleBot('Здесь токен')
+bot = telebot.TeleBot('5895390461:AAHYXeXnTDvuQziEmvhyb6QeVNSF_0yzuEQ')
 
 @bot.message_handler(commands=["start"])                   # стартовое меню
 def start(m, res=False):
